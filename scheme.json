@@ -1,0 +1,1990 @@
+{
+  "locked": false,
+  "offsetX": -37.14273601975238,
+  "offsetY": 61.40246841069423,
+  "zoom": 71.01494252873552,
+  "version": 3,
+  "nodes": {
+    "d214150d-78c5-4c1a-bc3e-4aff5545013d": {
+      "id": "d214150d-78c5-4c1a-bc3e-4aff5545013d",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 439.09032589320964,
+        "y": -102.4413679926284
+      },
+      "dimensions": {
+        "width": 40,
+        "height": 60
+      },
+      "ports": [
+        {
+          "id": "79ddb2de-0104-4812-84f0-45d6c1440a97",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "d214150d-78c5-4c1a-bc3e-4aff5545013d",
+          "links": [
+            "ddde0222-6e44-43dd-b2ec-8c2cda27e9c6"
+          ],
+          "coords": {
+            "x": 557.585963651969,
+            "y": -33.93750757686894
+          },
+          "libId": "FIRST"
+        }
+      ],
+      "hour": 2,
+      "voltageLevelId": null,
+      "substationId": "noId",
+      "transmissionLineId": null,
+      "libEquipmentId": "POWER_SYSTEM_EQUIVALENT",
+      "fields": {
+        "FREQUENCY": "50",
+        "VOLTAGE_LINE_TO_LINE": "115",
+        "ANGLE_OF_PHASE_A": "0",
+        "IMPEDANCE_POS_NEG_SEQ": "5",
+        "ANGLE_OF_IMPEDANCE_POS_NEG_SEQ": "87",
+        "IMPEDANCE_ZERO_SEQ": "5",
+        "ANGLE_OF_IMPEDANCE_ZERO_SEQ": "87",
+        "EMF_TIME_CONSTANT": "0.05"
+      },
+      "controls": {},
+      "name": "E1"
+    },
+    "7c5e9319-8816-488f-a632-2e9b78e0c9da": {
+      "id": "7c5e9319-8816-488f-a632-2e9b78e0c9da",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 502.99985739563283,
+        "y": 72.34204852840529
+      },
+      "dimensions": {
+        "width": 40,
+        "height": 60
+      },
+      "ports": [
+        {
+          "id": "12674fad-470b-435f-ab30-7b6106a437e6",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "7c5e9319-8816-488f-a632-2e9b78e0c9da",
+          "links": [
+            "eddd6a4e-4cc5-498d-8cb7-2e2dee93bdc2"
+          ],
+          "coords": {
+            "x": 557.4922155769733,
+            "y": 80.83595828878245
+          },
+          "libId": "FIRST"
+        },
+        {
+          "id": "e8e3eaf8-b740-43d2-870f-7e445c2c9b26",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "7c5e9319-8816-488f-a632-2e9b78e0c9da",
+          "links": [
+            "aaeb43d0-37f4-4503-8452-a72ecc51502f"
+          ],
+          "coords": {
+            "x": 557.4922155769733,
+            "y": 140.83595509395911
+          },
+          "libId": "SECOND"
+        }
+      ],
+      "hour": 0,
+      "voltageLevelId": null,
+      "substationId": "c4b66487-d98a-4d8a-87f4-142124b18e14",
+      "libEquipmentId": "CIRCUIT_BREAKER",
+      "fields": {
+        "POSITION": "on",
+        "RATED_CURRENT": "100"
+      },
+      "controls": {},
+      "name": "Q1"
+    },
+    "3a450446-b829-4727-b4d8-aa4002ae07c3": {
+      "id": "3a450446-b829-4727-b4d8-aa4002ae07c3",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 456.6512327847108,
+        "y": 151.9123664654864
+      },
+      "dimensions": {
+        "width": 182.3043731984651,
+        "height": 7
+      },
+      "ports": [
+        {
+          "id": "ee7eb5dd-7919-45f9-8a18-7ec36184b895",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "3a450446-b829-4727-b4d8-aa4002ae07c3",
+          "links": [
+            "aaeb43d0-37f4-4503-8452-a72ecc51502f"
+          ],
+          "coords": {
+            "x": 96,
+            "y": 3.5
+          },
+          "libId": "NO_ID"
+        },
+        {
+          "id": "1599498e-6c48-4b72-b81c-2464bd112d7f",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "3a450446-b829-4727-b4d8-aa4002ae07c3",
+          "links": [
+            "99902c08-f5c6-49bd-b6b7-b7959c748244"
+          ],
+          "coords": {
+            "x": 94,
+            "y": 3.5
+          },
+          "libId": "NO_ID"
+        },
+        {
+          "id": "fa11fa98-c183-4534-ab96-2e650c802c15",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "3a450446-b829-4727-b4d8-aa4002ae07c3",
+          "links": [
+            "598f7a6f-e9cb-4b88-b2bb-a360745ce382"
+          ],
+          "coords": {
+            "x": 167.3043731984651,
+            "y": 3.5
+          },
+          "libId": "NO_ID"
+        }
+      ],
+      "hour": 0,
+      "voltageLevelId": null,
+      "substationId": "c4b66487-d98a-4d8a-87f4-142124b18e14",
+      "libEquipmentId": "BUS",
+      "fields": {},
+      "controls": {},
+      "name": "BUS1"
+    },
+    "97a816c3-293b-4b47-9977-3a2908e85731": {
+      "id": "97a816c3-293b-4b47-9977-3a2908e85731",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 501.45960027349105,
+        "y": 206.18880090245256
+      },
+      "dimensions": {
+        "width": 40,
+        "height": 60
+      },
+      "ports": [
+        {
+          "id": "3cf64792-979f-4829-b1ec-b4da5d704245",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "97a816c3-293b-4b47-9977-3a2908e85731",
+          "links": [
+            "99902c08-f5c6-49bd-b6b7-b7959c748244"
+          ],
+          "coords": {
+            "x": 555.9531008200258,
+            "y": 214.6874839015253
+          },
+          "libId": "FIRST"
+        },
+        {
+          "id": "401f9fc8-e476-4536-b4ee-5b60ecd748a0",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "97a816c3-293b-4b47-9977-3a2908e85731",
+          "links": [
+            "624244e8-4796-424d-a77c-e8e8777e500f"
+          ],
+          "coords": {
+            "x": 555.9531008200258,
+            "y": 274.687480706702
+          },
+          "libId": "SECOND"
+        }
+      ],
+      "hour": 0,
+      "voltageLevelId": null,
+      "substationId": "c4b66487-d98a-4d8a-87f4-142124b18e14",
+      "libEquipmentId": "CIRCUIT_BREAKER",
+      "fields": {
+        "POSITION": "on",
+        "RATED_CURRENT": "100"
+      },
+      "controls": {},
+      "name": "Q2"
+    },
+    "57e1558e-8af4-40b0-8295-2c81cebf7bdd": {
+      "id": "57e1558e-8af4-40b0-8295-2c81cebf7bdd",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 498.0648718000312,
+        "y": 315.54798869380096
+      },
+      "dimensions": {
+        "width": 48,
+        "height": 136
+      },
+      "ports": [
+        {
+          "id": "6875d367-1acc-4fbf-991a-420db71a5b6d",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "57e1558e-8af4-40b0-8295-2c81cebf7bdd",
+          "links": [
+            "624244e8-4796-424d-a77c-e8e8777e500f"
+          ],
+          "coords": {
+            "x": 556.1224698194575,
+            "y": 324.0468577707957
+          },
+          "libId": "FIRST"
+        },
+        {
+          "id": "b8601e64-966b-4120-ad23-144d88700ed4",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "57e1558e-8af4-40b0-8295-2c81cebf7bdd",
+          "links": [
+            "ee144241-487d-4ab2-a4fe-74a432955cee"
+          ],
+          "coords": {
+            "x": 556.1224698194575,
+            "y": 460.04688674523135
+          },
+          "libId": "SECOND"
+        }
+      ],
+      "hour": 0,
+      "voltageLevelId": "KILOVOLTS_110",
+      "substationId": "c4b66487-d98a-4d8a-87f4-142124b18e14",
+      "libEquipmentId": "TWO_WINDING_POWER_TRANSFORMER",
+      "fields": {
+        "FREQUENCY": "50",
+        "RATED_APPARENT_POWER": "16",
+        "FIRST_WINDING_RATED_VOLTAGE": "115",
+        "SECOND_WINDING_RATED_VOLTAGE": "11",
+        "SHORT_CIRCUIT_VOLTAGE": "10.5",
+        "SHORT_CIRCUIT_ACTIVE_POWER": "85",
+        "IDLING_ACTIVE_POWER": "19",
+        "IDLING_CURRENT": "0.7",
+        "FIRST_WINDING_TYPE": "yg",
+        "SECOND_WINDING_TYPE": "d11",
+        "SATURATION_EXIST": "no",
+        "MAGNETIZATION_VOLTAGE": "1.17",
+        "AIR_CORE_RESISTANCE": "0.2",
+        "SATURATION_COEFFICIENT": "1.25",
+        "TAP_CHANGER_EXISTENCE": "disabled",
+        "TAP_CHANGER_INSTALLATION_WINDING": "onFirstWinding",
+        "TAP_CHANGER_DEFAULT_POSITION": "0",
+        "TAP_CHANGER_VOLTAGE_CHANGE": "1.78",
+        "TAP_CHANGER_MAX_POSITION": "9",
+        "TAP_CHANGER_MIN_POSITION": "-9"
+      },
+      "controls": {},
+      "name": "T1"
+    },
+    "745fe861-3a8c-4d00-8f15-8c6d7474bdf2": {
+      "id": "745fe861-3a8c-4d00-8f15-8c6d7474bdf2",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 501.0043522926392,
+        "y": 490.2727118229532
+      },
+      "dimensions": {
+        "width": 40,
+        "height": 60
+      },
+      "ports": [
+        {
+          "id": "549c04d6-c5f5-45b6-8ddc-af8b090a3f38",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "745fe861-3a8c-4d00-8f15-8c6d7474bdf2",
+          "links": [
+            "ee144241-487d-4ab2-a4fe-74a432955cee"
+          ],
+          "coords": {
+            "x": 555.5000000092411,
+            "y": 498.7656246537596
+          },
+          "libId": "FIRST"
+        },
+        {
+          "id": "d7f0a3de-e841-4e62-9a98-53aa7aace87f",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "745fe861-3a8c-4d00-8f15-8c6d7474bdf2",
+          "links": [
+            "249b39b3-79e3-493d-bb91-e06e9eff16dc"
+          ],
+          "coords": {
+            "x": 555.5000000092411,
+            "y": 558.7656085881678
+          },
+          "libId": "SECOND"
+        }
+      ],
+      "hour": 0,
+      "voltageLevelId": null,
+      "substationId": "c4b66487-d98a-4d8a-87f4-142124b18e14",
+      "libEquipmentId": "CIRCUIT_BREAKER",
+      "fields": {
+        "POSITION": "on",
+        "RATED_CURRENT": "100"
+      },
+      "controls": {},
+      "name": "Q3"
+    },
+    "5dc6dcbe-17df-4a9c-9f37-972c2df36d29": {
+      "id": "5dc6dcbe-17df-4a9c-9f37-972c2df36d29",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 456.506645000273,
+        "y": 571.886537191373
+      },
+      "dimensions": {
+        "width": 182.3043731984651,
+        "height": 7
+      },
+      "ports": [
+        {
+          "id": "c4723512-ec8f-4323-9f3f-b9659be68e56",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "5dc6dcbe-17df-4a9c-9f37-972c2df36d29",
+          "links": [
+            "249b39b3-79e3-493d-bb91-e06e9eff16dc"
+          ],
+          "coords": {
+            "x": 92,
+            "y": 3.5
+          },
+          "libId": "NO_ID"
+        },
+        {
+          "id": "adba1d65-061b-4fd0-9e40-77fc28cdf5cf",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "5dc6dcbe-17df-4a9c-9f37-972c2df36d29",
+          "links": [
+            "f43fd6e3-2517-4bea-8097-bdb041f68e87"
+          ],
+          "coords": {
+            "x": 88,
+            "y": 3.5
+          },
+          "libId": "NO_ID"
+        },
+        {
+          "id": "8b7b946b-021e-4e85-9ee8-d5d70fe9411f",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "5dc6dcbe-17df-4a9c-9f37-972c2df36d29",
+          "links": [
+            "13d16c97-5815-4f3b-8095-a69f05b11314"
+          ],
+          "coords": {
+            "x": 167.3043731984651,
+            "y": 3.5
+          },
+          "libId": "NO_ID"
+        }
+      ],
+      "hour": 0,
+      "voltageLevelId": null,
+      "substationId": "c4b66487-d98a-4d8a-87f4-142124b18e14",
+      "libEquipmentId": "BUS",
+      "fields": {},
+      "controls": {},
+      "name": "BUS2"
+    },
+    "4e822b92-09f8-4c06-8b4b-f500c16804fc": {
+      "id": "4e822b92-09f8-4c06-8b4b-f500c16804fc",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 500.043661300219,
+        "y": 627.8814242065444
+      },
+      "dimensions": {
+        "width": 40,
+        "height": 60
+      },
+      "ports": [
+        {
+          "id": "7ec5238d-54a2-4c62-98cb-4c2ad0702a9a",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "4e822b92-09f8-4c06-8b4b-f500c16804fc",
+          "links": [
+            "f43fd6e3-2517-4bea-8097-bdb041f68e87"
+          ],
+          "coords": {
+            "x": 554.5390299632141,
+            "y": 636.375005894435
+          },
+          "libId": "FIRST"
+        },
+        {
+          "id": "40e7a4d4-3169-4d7b-b9fc-f5d0aea51a30",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "4e822b92-09f8-4c06-8b4b-f500c16804fc",
+          "links": [
+            "2121cb47-c96b-42c8-938b-6c6487f0a8fd"
+          ],
+          "coords": {
+            "x": 554.5390299632141,
+            "y": 696.3750175140311
+          },
+          "libId": "SECOND"
+        }
+      ],
+      "hour": 0,
+      "voltageLevelId": null,
+      "substationId": "c4b66487-d98a-4d8a-87f4-142124b18e14",
+      "libEquipmentId": "CIRCUIT_BREAKER",
+      "fields": {
+        "POSITION": "on",
+        "RATED_CURRENT": "100"
+      },
+      "controls": {},
+      "name": "Q4"
+    },
+    "456f3b43-6576-4169-986c-16c6e99935f8": {
+      "id": "456f3b43-6576-4169-986c-16c6e99935f8",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 511.3006965111027,
+        "y": 719.6076606993015
+      },
+      "dimensions": {
+        "width": 20,
+        "height": 60
+      },
+      "ports": [
+        {
+          "id": "70f759dc-9819-4d57-ab33-a534f189a101",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "456f3b43-6576-4169-986c-16c6e99935f8",
+          "links": [
+            "2121cb47-c96b-42c8-938b-6c6487f0a8fd"
+          ],
+          "coords": {
+            "x": 555.8468491272678,
+            "y": 728.1015957865569
+          },
+          "libId": "FIRST"
+        }
+      ],
+      "hour": 0,
+      "voltageLevelId": null,
+      "substationId": "c4b66487-d98a-4d8a-87f4-142124b18e14",
+      "libEquipmentId": "LOAD",
+      "fields": {
+        "FREQUENCY": "50",
+        "RATED_VOLTAGE_LINE_TO_LINE": "10",
+        "ACTIVE_POWER": "13.92",
+        "REACTIVE_POWER": "7.89",
+        "ACTIVE_POWER_TO_FREQUENCY_COEFFICIENT": "2",
+        "ACTIVE_POWER_TO_VOLTAGE_COEFFICIENT": "2",
+        "ACTIVE_POWER_TO_REACTIVE_POWER_COEFFICIENT": "2",
+        "GROUNDED": "disabled"
+      },
+      "controls": {},
+      "name": "L1"
+    },
+    "90f315fa-688b-4b79-9997-2a17251af71f": {
+      "id": "90f315fa-688b-4b79-9997-2a17251af71f",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 550.7653903863426,
+        "y": 0.32168378616504967
+      },
+      "dimensions": {
+        "width": 20,
+        "height": 60
+      },
+      "ports": [
+        {
+          "id": "1b755a60-29bf-4f0d-a522-f9a269611678",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "90f315fa-688b-4b79-9997-2a17251af71f",
+          "links": [
+            "ddde0222-6e44-43dd-b2ec-8c2cda27e9c6"
+          ],
+          "coords": {
+            "x": 556.2653903863426,
+            "y": -2.1783162138349503
+          },
+          "libId": "FIRST",
+          "points": []
+        },
+        {
+          "id": "158c5629-8197-434e-bcb8-be30b2b67c85",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "90f315fa-688b-4b79-9997-2a17251af71f",
+          "links": [
+            "eddd6a4e-4cc5-498d-8cb7-2e2dee93bdc2"
+          ],
+          "coords": {
+            "x": 556.2653903863426,
+            "y": 57.821683786165046
+          },
+          "libId": "SECOND",
+          "points": []
+        }
+      ],
+      "hour": 0,
+      "voltageLevelId": "KILOVOLTS_110",
+      "transmissionLineId": "d55146be-1f7e-4113-94a2-08eed9e3bdf7",
+      "libEquipmentId": "TRANSMISSION_LINE_SEGMENT",
+      "fields": {
+        "FREQUENCY": "50",
+        "LENGTH": "40",
+        "VOLTAGE_LEVEL": "KILOVOLTS_110",
+        "RESISTANCE_PER_LENGTH_POS_NEG_SEQ": "0.116",
+        "REACTANCE_PER_LENGTH_POS_NEG_SEQ": "0.4",
+        "SUSCEPTANCE_PER_LENGTH_POS_NEG_SEQ": "2.7",
+        "RESISTANCE_PER_LENGTH_ZERO_SEQ": "1.16",
+        "REACTANCE_PER_LENGTH_ZERO_SEQ": "1.2",
+        "SUSCEPTANCE_PER_LENGTH_ZERO_SEQ": "2.25",
+        "USE_CONCENTRATED_PARAMETERS": "disabled",
+        "RATED_ACTIVE_POWER": "100"
+      },
+      "controls": {},
+      "name": "Line1"
+    },
+    "f8ae4fba-c20d-43ea-bb07-899f30780665": {
+      "id": "f8ae4fba-c20d-43ea-bb07-899f30780665",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 814.6572336685205,
+        "y": -106.65411850047326
+      },
+      "dimensions": {
+        "width": 40,
+        "height": 60
+      },
+      "ports": [
+        {
+          "id": "ff0c4019-0c17-4631-b09d-ecfe2b82580b",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "f8ae4fba-c20d-43ea-bb07-899f30780665",
+          "links": [
+            "21d00587-928e-40a2-8273-d6145bcacc21"
+          ],
+          "coords": {
+            "x": 657.585968428459,
+            "y": 66.06248553295045
+          },
+          "libId": "FIRST"
+        }
+      ],
+      "hour": 2,
+      "voltageLevelId": null,
+      "substationId": "noId",
+      "libEquipmentId": "POWER_SYSTEM_EQUIVALENT",
+      "fields": {
+        "FREQUENCY": "50",
+        "VOLTAGE_LINE_TO_LINE": "115",
+        "ANGLE_OF_PHASE_A": "0",
+        "IMPEDANCE_POS_NEG_SEQ": "5",
+        "ANGLE_OF_IMPEDANCE_POS_NEG_SEQ": "87",
+        "IMPEDANCE_ZERO_SEQ": "5",
+        "ANGLE_OF_IMPEDANCE_ZERO_SEQ": "87",
+        "EMF_TIME_CONSTANT": "0.05"
+      },
+      "controls": {},
+      "name": "E2"
+    },
+    "89a61c9e-9750-4ada-b4f6-399fdbab6391": {
+      "id": "89a61c9e-9750-4ada-b4f6-399fdbab6391",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 878.5667651709437,
+        "y": 68.12929802056043
+      },
+      "dimensions": {
+        "width": 40,
+        "height": 60
+      },
+      "ports": [
+        {
+          "id": "c6508cd5-ea84-4bb7-9871-301c99212d5a",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "89a61c9e-9750-4ada-b4f6-399fdbab6391",
+          "links": [
+            "061e143b-658c-4632-a585-b3062e7d928f"
+          ],
+          "coords": {
+            "x": 657.4921749668054,
+            "y": 180.8359506826794
+          },
+          "libId": "FIRST"
+        },
+        {
+          "id": "82340348-9f0c-43cd-a3d0-ab2027b3d08b",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "89a61c9e-9750-4ada-b4f6-399fdbab6391",
+          "links": [
+            "c4f70109-d9cc-40dc-a680-b3a5f14bf915"
+          ],
+          "coords": {
+            "x": 657.4921749668054,
+            "y": 240.83593461708753
+          },
+          "libId": "SECOND"
+        }
+      ],
+      "hour": 0,
+      "voltageLevelId": null,
+      "substationId": "c4b66487-d98a-4d8a-87f4-142124b18e14",
+      "libEquipmentId": "CIRCUIT_BREAKER",
+      "fields": {
+        "POSITION": "on",
+        "RATED_CURRENT": "100"
+      },
+      "controls": {},
+      "name": "Q5"
+    },
+    "ec100d29-212b-4269-a835-780e2f8420e3": {
+      "id": "ec100d29-212b-4269-a835-780e2f8420e3",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 832.2181405600217,
+        "y": 147.69961595764153
+      },
+      "dimensions": {
+        "width": 182.3043731984651,
+        "height": 7
+      },
+      "ports": [
+        {
+          "id": "b092c07b-3165-465e-a0cc-3d11a5d12894",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "ec100d29-212b-4269-a835-780e2f8420e3",
+          "links": [
+            "c4f70109-d9cc-40dc-a680-b3a5f14bf915"
+          ],
+          "coords": {
+            "x": 96,
+            "y": 3.5
+          },
+          "libId": "NO_ID"
+        },
+        {
+          "id": "2788e196-7fd7-44b4-9a21-aeb8c4bd6ecc",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "ec100d29-212b-4269-a835-780e2f8420e3",
+          "links": [
+            "5e7f8caa-f1bf-49fb-865a-48ab8215491a"
+          ],
+          "coords": {
+            "x": 94,
+            "y": 3.5
+          },
+          "libId": "NO_ID"
+        },
+        {
+          "id": "f97ea04f-159f-40bd-a1f8-4ca2805e3fb7",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "ec100d29-212b-4269-a835-780e2f8420e3",
+          "links": [
+            "3d8c31d5-3f88-4100-a024-0eda51690c28"
+          ],
+          "coords": {
+            "x": 15,
+            "y": 3.5
+          },
+          "libId": "NO_ID"
+        }
+      ],
+      "hour": 0,
+      "voltageLevelId": null,
+      "substationId": "c4b66487-d98a-4d8a-87f4-142124b18e14",
+      "libEquipmentId": "BUS",
+      "fields": {},
+      "controls": {},
+      "name": "BUS3"
+    },
+    "7c3005c8-ed08-47e0-bbcc-8eb933dd719f": {
+      "id": "7c3005c8-ed08-47e0-bbcc-8eb933dd719f",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 877.0265080488019,
+        "y": 201.97605039460768
+      },
+      "dimensions": {
+        "width": 40,
+        "height": 60
+      },
+      "ports": [
+        {
+          "id": "66d340d3-af1c-4ab0-a773-97b5b1c6bdfe",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "7c3005c8-ed08-47e0-bbcc-8eb933dd719f",
+          "links": [
+            "5e7f8caa-f1bf-49fb-865a-48ab8215491a"
+          ],
+          "coords": {
+            "x": 846.7890042292547,
+            "y": 212.23437797653838
+          },
+          "libId": "FIRST"
+        },
+        {
+          "id": "46fefd62-0995-49fd-9d08-70bf04ec2cbe",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "7c3005c8-ed08-47e0-bbcc-8eb933dd719f",
+          "links": [
+            "e0cca2a7-8dd5-4780-bc5d-d5aeff78762c"
+          ],
+          "coords": {
+            "x": 846.7890042292547,
+            "y": 272.2344007400362
+          },
+          "libId": "SECOND"
+        }
+      ],
+      "hour": 0,
+      "voltageLevelId": null,
+      "substationId": "c4b66487-d98a-4d8a-87f4-142124b18e14",
+      "libEquipmentId": "CIRCUIT_BREAKER",
+      "fields": {
+        "POSITION": "on",
+        "RATED_CURRENT": "100"
+      },
+      "controls": {},
+      "name": "Q6"
+    },
+    "52e807b0-8bf4-4c9a-8e1d-c640002b220c": {
+      "id": "52e807b0-8bf4-4c9a-8e1d-c640002b220c",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 873.631779575342,
+        "y": 311.3352381859561
+      },
+      "dimensions": {
+        "width": 48,
+        "height": 136
+      },
+      "ports": [
+        {
+          "id": "534b9e59-2d67-4670-a8cf-211d097a0a10",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "52e807b0-8bf4-4c9a-8e1d-c640002b220c",
+          "links": [
+            "e0cca2a7-8dd5-4780-bc5d-d5aeff78762c"
+          ],
+          "coords": {
+            "x": 656.1224839120817,
+            "y": 424.04687186342005
+          },
+          "libId": "FIRST"
+        },
+        {
+          "id": "0ef9750d-7825-4a33-aec9-f132cd8176af",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "52e807b0-8bf4-4c9a-8e1d-c640002b220c",
+          "links": [
+            "d869a4da-0097-4c83-a4a0-bdba9386a54e"
+          ],
+          "coords": {
+            "x": 656.1224839120817,
+            "y": 560.0469008378557
+          },
+          "libId": "SECOND"
+        }
+      ],
+      "hour": 0,
+      "voltageLevelId": "KILOVOLTS_110",
+      "substationId": "c4b66487-d98a-4d8a-87f4-142124b18e14",
+      "libEquipmentId": "TWO_WINDING_POWER_TRANSFORMER",
+      "fields": {
+        "FREQUENCY": "50",
+        "RATED_APPARENT_POWER": "16",
+        "FIRST_WINDING_RATED_VOLTAGE": "115",
+        "SECOND_WINDING_RATED_VOLTAGE": "11",
+        "SHORT_CIRCUIT_VOLTAGE": "10.5",
+        "SHORT_CIRCUIT_ACTIVE_POWER": "85",
+        "IDLING_ACTIVE_POWER": "19",
+        "IDLING_CURRENT": "0.7",
+        "FIRST_WINDING_TYPE": "yg",
+        "SECOND_WINDING_TYPE": "d11",
+        "SATURATION_EXIST": "no",
+        "MAGNETIZATION_VOLTAGE": "1.17",
+        "AIR_CORE_RESISTANCE": "0.2",
+        "SATURATION_COEFFICIENT": "1.25",
+        "TAP_CHANGER_EXISTENCE": "disabled",
+        "TAP_CHANGER_INSTALLATION_WINDING": "onFirstWinding",
+        "TAP_CHANGER_DEFAULT_POSITION": "0",
+        "TAP_CHANGER_VOLTAGE_CHANGE": "1.78",
+        "TAP_CHANGER_MAX_POSITION": "9",
+        "TAP_CHANGER_MIN_POSITION": "-9"
+      },
+      "controls": {},
+      "name": "T1clone"
+    },
+    "845f803a-6f15-4f84-a016-0880401e1762": {
+      "id": "845f803a-6f15-4f84-a016-0880401e1762",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 876.57126006795,
+        "y": 486.0599613151083
+      },
+      "dimensions": {
+        "width": 40,
+        "height": 60
+      },
+      "ports": [
+        {
+          "id": "4b543805-1567-4d20-982a-11d3d151a731",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "845f803a-6f15-4f84-a016-0880401e1762",
+          "links": [
+            "d869a4da-0097-4c83-a4a0-bdba9386a54e"
+          ],
+          "coords": {
+            "x": 655.5000141018654,
+            "y": 598.7656387463838
+          },
+          "libId": "FIRST"
+        },
+        {
+          "id": "66ada0f7-ed12-42bb-b026-3c1a42bf19fc",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "845f803a-6f15-4f84-a016-0880401e1762",
+          "links": [
+            "7d7dc166-9722-4ade-b21d-0de1e40fa7f9"
+          ],
+          "coords": {
+            "x": 655.5000141018654,
+            "y": 658.765622680792
+          },
+          "libId": "SECOND"
+        }
+      ],
+      "hour": 0,
+      "voltageLevelId": null,
+      "substationId": "c4b66487-d98a-4d8a-87f4-142124b18e14",
+      "libEquipmentId": "CIRCUIT_BREAKER",
+      "fields": {
+        "POSITION": "on",
+        "RATED_CURRENT": "100"
+      },
+      "controls": {},
+      "name": "Q7"
+    },
+    "165a49a5-1f4e-4173-8ba1-69ba45471707": {
+      "id": "165a49a5-1f4e-4173-8ba1-69ba45471707",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 832.0735527755838,
+        "y": 567.6737866835282
+      },
+      "dimensions": {
+        "width": 182.3043731984651,
+        "height": 7
+      },
+      "ports": [
+        {
+          "id": "655aad05-31d7-404d-9115-80506cded668",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "165a49a5-1f4e-4173-8ba1-69ba45471707",
+          "links": [
+            "7d7dc166-9722-4ade-b21d-0de1e40fa7f9"
+          ],
+          "coords": {
+            "x": 92,
+            "y": 3.5
+          },
+          "libId": "NO_ID"
+        },
+        {
+          "id": "ee6f4c0c-a591-4f44-aa68-82b4ab4c6337",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "165a49a5-1f4e-4173-8ba1-69ba45471707",
+          "links": [
+            "17d2c957-27da-4dbb-8caf-4ae4b020cba0"
+          ],
+          "coords": {
+            "x": 88,
+            "y": 3.5
+          },
+          "libId": "NO_ID"
+        },
+        {
+          "id": "2d72ae6d-2817-45b9-9c77-5e8179dfdaf5",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "165a49a5-1f4e-4173-8ba1-69ba45471707",
+          "links": [
+            "313a2139-02ea-46bb-95be-f8e28f2ba5ca"
+          ],
+          "coords": {
+            "x": 15,
+            "y": 3.5
+          },
+          "libId": "NO_ID"
+        }
+      ],
+      "hour": 0,
+      "voltageLevelId": null,
+      "substationId": "c4b66487-d98a-4d8a-87f4-142124b18e14",
+      "libEquipmentId": "BUS",
+      "fields": {},
+      "controls": {},
+      "name": "BUS4"
+    },
+    "1ee8d50a-ba5a-4f26-93da-47afa5855fcc": {
+      "id": "1ee8d50a-ba5a-4f26-93da-47afa5855fcc",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 876.9474982874331,
+        "y": 623.6686736986995
+      },
+      "dimensions": {
+        "width": 40,
+        "height": 60
+      },
+      "ports": [
+        {
+          "id": "de48f62c-bf63-4ec9-b78a-7cdb64f234c6",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "1ee8d50a-ba5a-4f26-93da-47afa5855fcc",
+          "links": [
+            "17d2c957-27da-4dbb-8caf-4ae4b020cba0"
+          ],
+          "coords": {
+            "x": 846.7109949319781,
+            "y": 633.9296483429637
+          },
+          "libId": "FIRST"
+        },
+        {
+          "id": "b1e73f37-e187-45d1-99a1-1de770c3a6bc",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "1ee8d50a-ba5a-4f26-93da-47afa5855fcc",
+          "links": [
+            "0d203151-5f97-40a0-b55c-8b167fc68eb6"
+          ],
+          "coords": {
+            "x": 846.7109949319781,
+            "y": 693.9296507065407
+          },
+          "libId": "SECOND"
+        }
+      ],
+      "hour": 0,
+      "voltageLevelId": null,
+      "substationId": "c4b66487-d98a-4d8a-87f4-142124b18e14",
+      "libEquipmentId": "CIRCUIT_BREAKER",
+      "fields": {
+        "POSITION": "on",
+        "RATED_CURRENT": "100"
+      },
+      "controls": {},
+      "name": "Q8"
+    },
+    "a8cd2fe2-4704-4e32-93e2-070c48a44941": {
+      "id": "a8cd2fe2-4704-4e32-93e2-070c48a44941",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 885.5306750745102,
+        "y": 715.3949101914567
+      },
+      "dimensions": {
+        "width": 20,
+        "height": 60
+      },
+      "ports": [
+        {
+          "id": "c8ebc50c-7990-4e1d-a887-223ec16ba435",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "a8cd2fe2-4704-4e32-93e2-070c48a44941",
+          "links": [
+            "0d203151-5f97-40a0-b55c-8b167fc68eb6"
+          ],
+          "coords": {
+            "x": 845.346811425838,
+            "y": 725.656178788357
+          },
+          "libId": "FIRST"
+        }
+      ],
+      "hour": 0,
+      "voltageLevelId": null,
+      "substationId": "c4b66487-d98a-4d8a-87f4-142124b18e14",
+      "libEquipmentId": "LOAD",
+      "fields": {
+        "FREQUENCY": "50",
+        "RATED_VOLTAGE_LINE_TO_LINE": "10",
+        "ACTIVE_POWER": "13.92",
+        "REACTIVE_POWER": "7.89",
+        "ACTIVE_POWER_TO_FREQUENCY_COEFFICIENT": "2",
+        "ACTIVE_POWER_TO_VOLTAGE_COEFFICIENT": "2",
+        "ACTIVE_POWER_TO_REACTIVE_POWER_COEFFICIENT": "2",
+        "GROUNDED": "disabled"
+      },
+      "controls": {},
+      "name": "L2"
+    },
+    "aa0701d7-dd51-4ebd-99b8-83d85d78a8ef": {
+      "id": "aa0701d7-dd51-4ebd-99b8-83d85d78a8ef",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 926.3322981616534,
+        "y": -3.891066721679804
+      },
+      "dimensions": {
+        "width": 20,
+        "height": 60
+      },
+      "ports": [
+        {
+          "id": "39badd6d-3eb5-47c5-8442-22373e94d61b",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "aa0701d7-dd51-4ebd-99b8-83d85d78a8ef",
+          "links": [
+            "21d00587-928e-40a2-8273-d6145bcacc21"
+          ],
+          "coords": {
+            "x": 931.8322981616534,
+            "y": -6.391066721679804
+          },
+          "libId": "FIRST",
+          "points": []
+        },
+        {
+          "id": "6793d965-9021-4247-9160-4667ec0eab69",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "aa0701d7-dd51-4ebd-99b8-83d85d78a8ef",
+          "links": [
+            "061e143b-658c-4632-a585-b3062e7d928f"
+          ],
+          "coords": {
+            "x": 931.8322981616534,
+            "y": 53.60893327832018
+          },
+          "libId": "SECOND",
+          "points": []
+        }
+      ],
+      "hour": 0,
+      "voltageLevelId": "KILOVOLTS_110",
+      "transmissionLineId": "99ca703f-7615-45aa-afaf-fb95c4e4b327",
+      "libEquipmentId": "TRANSMISSION_LINE_SEGMENT",
+      "fields": {
+        "FREQUENCY": "50",
+        "LENGTH": "40",
+        "VOLTAGE_LEVEL": "KILOVOLTS_110",
+        "RESISTANCE_PER_LENGTH_POS_NEG_SEQ": "0.116",
+        "REACTANCE_PER_LENGTH_POS_NEG_SEQ": "0.4",
+        "SUSCEPTANCE_PER_LENGTH_POS_NEG_SEQ": "2.7",
+        "RESISTANCE_PER_LENGTH_ZERO_SEQ": "1.16",
+        "REACTANCE_PER_LENGTH_ZERO_SEQ": "1.2",
+        "SUSCEPTANCE_PER_LENGTH_ZERO_SEQ": "2.25",
+        "USE_CONCENTRATED_PARAMETERS": "disabled",
+        "RATED_ACTIVE_POWER": "100"
+      },
+      "controls": {},
+      "name": "Line2"
+    },
+    "824916bf-0d81-4773-8fc8-ac01c6a4be8e": {
+      "id": "824916bf-0d81-4773-8fc8-ac01c6a4be8e",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 661.0543572451766,
+        "y": 92.32341203236224
+      },
+      "dimensions": {
+        "width": 40,
+        "height": 60
+      },
+      "ports": [
+        {
+          "id": "94838dc1-ad91-4f40-997f-59055cd00124",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "824916bf-0d81-4773-8fc8-ac01c6a4be8e",
+          "links": [
+            "3d8c31d5-3f88-4100-a024-0eda51690c28"
+          ],
+          "coords": {
+            "x": 773.5468675664132,
+            "y": 141.8203127359042
+          },
+          "libId": "FIRST"
+        },
+        {
+          "id": "b71a2b32-dbb2-4ef9-ae0b-b7ebc59c022e",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "824916bf-0d81-4773-8fc8-ac01c6a4be8e",
+          "links": [
+            "598f7a6f-e9cb-4b88-b2bb-a360745ce382"
+          ],
+          "coords": {
+            "x": 713.5468937958816,
+            "y": 141.8203127359042
+          },
+          "libId": "SECOND"
+        }
+      ],
+      "hour": 1,
+      "voltageLevelId": null,
+      "substationId": "c4b66487-d98a-4d8a-87f4-142124b18e14",
+      "libEquipmentId": "CIRCUIT_BREAKER",
+      "fields": {
+        "POSITION": "off",
+        "RATED_CURRENT": "100"
+      },
+      "controls": {},
+      "name": "QS1"
+    },
+    "2347dcfc-8989-40cc-a77c-18311074387b": {
+      "id": "2347dcfc-8989-40cc-a77c-18311074387b",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 668.6122565387757,
+        "y": 529.5658905353434
+      },
+      "dimensions": {
+        "width": 40,
+        "height": 60
+      },
+      "ports": [
+        {
+          "id": "07e75b69-dad6-470b-adf1-b8fbdd7978a2",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "2347dcfc-8989-40cc-a77c-18311074387b",
+          "links": [
+            "313a2139-02ea-46bb-95be-f8e28f2ba5ca"
+          ],
+          "coords": {
+            "x": 781.109320507096,
+            "y": 579.0625385520655
+          },
+          "libId": "FIRST"
+        },
+        {
+          "id": "ec6e9108-53f6-499c-9244-01fe186785cd",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "2347dcfc-8989-40cc-a77c-18311074387b",
+          "links": [
+            "13d16c97-5815-4f3b-8095-a69f05b11314"
+          ],
+          "coords": {
+            "x": 721.1093467365642,
+            "y": 579.0625385520655
+          },
+          "libId": "SECOND"
+        }
+      ],
+      "hour": 1,
+      "voltageLevelId": null,
+      "substationId": "c4b66487-d98a-4d8a-87f4-142124b18e14",
+      "libEquipmentId": "CIRCUIT_BREAKER",
+      "fields": {
+        "POSITION": "off",
+        "RATED_CURRENT": "100"
+      },
+      "controls": {},
+      "name": "QS2"
+    }
+  },
+  "links": {
+    "aaeb43d0-37f4-4503-8452-a72ecc51502f": {
+      "id": "aaeb43d0-37f4-4503-8452-a72ecc51502f",
+      "locked": false,
+      "selected": false,
+      "source": "7c5e9319-8816-488f-a632-2e9b78e0c9da",
+      "sourcePort": "e8e3eaf8-b740-43d2-870f-7e445c2c9b26",
+      "target": "3a450446-b829-4727-b4d8-aa4002ae07c3",
+      "targetPort": "ee7eb5dd-7919-45f9-8a18-7ec36184b895",
+      "points": [
+        {
+          "id": "2cabb0d7-2356-4cde-b126-15a3be87a050",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 561.9922092556588,
+            "y": 143.33595589082472
+          }
+        },
+        {
+          "id": "9c3d561b-6f6d-4e58-a29b-51999420a8ec",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 566.1484635728523,
+            "y": 182.40627105098858
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "99902c08-f5c6-49bd-b6b7-b7959c748244": {
+      "id": "99902c08-f5c6-49bd-b6b7-b7959c748244",
+      "locked": false,
+      "selected": false,
+      "source": "97a816c3-293b-4b47-9977-3a2908e85731",
+      "sourcePort": "3cf64792-979f-4829-b1ec-b4da5d704245",
+      "target": "3a450446-b829-4727-b4d8-aa4002ae07c3",
+      "targetPort": "1599498e-6c48-4b72-b81c-2464bd112d7f",
+      "points": [
+        {
+          "id": "09893468-a2c3-403d-b13f-2d030dd221c0",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 560.4531391318374,
+            "y": 217.1875103954719
+          }
+        },
+        {
+          "id": "c4a86d8e-453c-4148-b044-9b9a11e66f33",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 564.148464330776,
+            "y": 182.40627105098858
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "624244e8-4796-424d-a77c-e8e8777e500f": {
+      "id": "624244e8-4796-424d-a77c-e8e8777e500f",
+      "locked": false,
+      "selected": false,
+      "source": "57e1558e-8af4-40b0-8295-2c81cebf7bdd",
+      "sourcePort": "6875d367-1acc-4fbf-991a-420db71a5b6d",
+      "target": "97a816c3-293b-4b47-9977-3a2908e85731",
+      "targetPort": "401f9fc8-e476-4536-b4ee-5b60ecd748a0",
+      "points": [
+        {
+          "id": "9e0576ec-dbe2-43d5-9ff7-805281f12895",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 560.6225128050248,
+            "y": 326.54687635983146
+          }
+        },
+        {
+          "id": "b2511c9f-0334-4088-995f-25897e73d82b",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 560.4531391318374,
+            "y": 277.1875415297919
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "ee144241-487d-4ab2-a4fe-74a432955cee": {
+      "id": "ee144241-487d-4ab2-a4fe-74a432955cee",
+      "locked": false,
+      "selected": false,
+      "source": "745fe861-3a8c-4d00-8f15-8c6d7474bdf2",
+      "sourcePort": "549c04d6-c5f5-45b6-8ddc-af8b090a3f38",
+      "target": "57e1558e-8af4-40b0-8295-2c81cebf7bdd",
+      "targetPort": "b8601e64-966b-4120-ad23-144d88700ed4",
+      "points": [
+        {
+          "id": "e2844d4c-96e3-4252-af25-b2a4409035ab",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 560.0000214584338,
+            "y": 501.26570577092406
+          }
+        },
+        {
+          "id": "354b6271-731e-4353-8533-172d9cd8c0e8",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 560.6225128050248,
+            "y": 462.5469056290645
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "249b39b3-79e3-493d-bb91-e06e9eff16dc": {
+      "id": "249b39b3-79e3-493d-bb91-e06e9eff16dc",
+      "locked": false,
+      "selected": false,
+      "source": "745fe861-3a8c-4d00-8f15-8c6d7474bdf2",
+      "sourcePort": "d7f0a3de-e841-4e62-9a98-53aa7aace87f",
+      "target": "5dc6dcbe-17df-4a9c-9f37-972c2df36d29",
+      "targetPort": "c4723512-ec8f-4323-9f3f-b9659be68e56",
+      "points": [
+        {
+          "id": "151a95a6-69ff-460a-88b6-e90bc167f790",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 560.0000214584338,
+            "y": 561.2656291611771
+          }
+        },
+        {
+          "id": "c21777ed-d80b-46ee-baff-e181bf577e1a",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 561.9999990084859,
+            "y": 602.382818409348
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "f43fd6e3-2517-4bea-8097-bdb041f68e87": {
+      "id": "f43fd6e3-2517-4bea-8097-bdb041f68e87",
+      "locked": false,
+      "selected": false,
+      "source": "4e822b92-09f8-4c06-8b4b-f500c16804fc",
+      "sourcePort": "7ec5238d-54a2-4c62-98cb-4c2ad0702a9a",
+      "target": "5dc6dcbe-17df-4a9c-9f37-972c2df36d29",
+      "targetPort": "adba1d65-061b-4fd0-9e40-77fc28cdf5cf",
+      "points": [
+        {
+          "id": "70a7f27b-3801-4137-9e8b-3edeb7606045",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 559.0390790616518,
+            "y": 638.8750273595892
+          }
+        },
+        {
+          "id": "940bd653-7db4-4e44-9394-1e59a53c19e2",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 557.9999798600132,
+            "y": 602.382818409348
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "2121cb47-c96b-42c8-938b-6c6487f0a8fd": {
+      "id": "2121cb47-c96b-42c8-938b-6c6487f0a8fd",
+      "locked": false,
+      "selected": false,
+      "source": "456f3b43-6576-4169-986c-16c6e99935f8",
+      "sourcePort": "70f759dc-9819-4d57-ab33-a534f189a101",
+      "target": "4e822b92-09f8-4c06-8b4b-f500c16804fc",
+      "targetPort": "40e7a4d4-3169-4d7b-b9fc-f5d0aea51a30",
+      "points": [
+        {
+          "id": "3a0bce70-7108-4d0a-9201-fb90de6f7985",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 560.3468765458441,
+            "y": 730.6015380532697
+          }
+        },
+        {
+          "id": "d1583aa4-2ae1-429e-b83c-7b28f10ab9a9",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 559.0390790616518,
+            "y": 698.8750046218759
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "eddd6a4e-4cc5-498d-8cb7-2e2dee93bdc2": {
+      "id": "eddd6a4e-4cc5-498d-8cb7-2e2dee93bdc2",
+      "locked": false,
+      "selected": false,
+      "source": "90f315fa-688b-4b79-9997-2a17251af71f",
+      "sourcePort": "158c5629-8197-434e-bcb8-be30b2b67c85",
+      "target": "7c5e9319-8816-488f-a632-2e9b78e0c9da",
+      "targetPort": "12674fad-470b-435f-ab30-7b6106a437e6",
+      "points": [
+        {
+          "id": "205535b6-916e-43b5-9401-1caa2c871782",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 561.7578120380892,
+            "y": 61.32031020396389
+          }
+        },
+        {
+          "id": "98cc94e6-32e6-412b-b5af-a6424ecd2c13",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 561.9922092556588,
+            "y": 83.33595169252143
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "ddde0222-6e44-43dd-b2ec-8c2cda27e9c6": {
+      "id": "ddde0222-6e44-43dd-b2ec-8c2cda27e9c6",
+      "locked": false,
+      "selected": false,
+      "source": "d214150d-78c5-4c1a-bc3e-4aff5545013d",
+      "sourcePort": "79ddb2de-0104-4812-84f0-45d6c1440a97",
+      "target": "90f315fa-688b-4b79-9997-2a17251af71f",
+      "targetPort": "1b755a60-29bf-4f0d-a522-f9a269611678",
+      "points": [
+        {
+          "id": "c94afdd7-2a9b-40f4-9093-7073f32380e4",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 562.0859465938734,
+            "y": -31.4374862941845
+          }
+        },
+        {
+          "id": "bdbb3d02-50b5-4fc0-8c1a-eb603108afe0",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 561.7578120380892,
+            "y": 1.320306005660605
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "c4f70109-d9cc-40dc-a680-b3a5f14bf915": {
+      "id": "c4f70109-d9cc-40dc-a680-b3a5f14bf915",
+      "locked": false,
+      "selected": false,
+      "source": "89a61c9e-9750-4ada-b4f6-399fdbab6391",
+      "sourcePort": "82340348-9f0c-43cd-a3d0-ab2027b3d08b",
+      "target": "ec100d29-212b-4269-a835-780e2f8420e3",
+      "targetPort": "b092c07b-3165-465e-a0cc-3d11a5d12894",
+      "points": [
+        {
+          "id": "7b8d65ab-5fdd-4ff0-8aad-9075c52182a4",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 937.5625181072219,
+            "y": 139.12502145967298
+          }
+        },
+        {
+          "id": "ba59a845-5d57-4867-90c7-1339c175e786",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 941.7109340435472,
+            "y": 178.19533661983684
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "5e7f8caa-f1bf-49fb-865a-48ab8215491a": {
+      "id": "5e7f8caa-f1bf-49fb-865a-48ab8215491a",
+      "locked": false,
+      "selected": false,
+      "source": "7c3005c8-ed08-47e0-bbcc-8eb933dd719f",
+      "sourcePort": "66d340d3-af1c-4ab0-a773-97b5b1c6bdfe",
+      "target": "ec100d29-212b-4269-a835-780e2f8420e3",
+      "targetPort": "2788e196-7fd7-44b4-9a21-aeb8c4bd6ecc",
+      "points": [
+        {
+          "id": "9ff45f41-7f7b-435a-9186-5c883315bbec",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 936.0235018554338,
+            "y": 212.96876451946892
+          }
+        },
+        {
+          "id": "b9e83a59-9913-41e1-a6fc-0a67ee2d625e",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 939.7109886735045,
+            "y": 178.19533661983684
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "e0cca2a7-8dd5-4780-bc5d-d5aeff78762c": {
+      "id": "e0cca2a7-8dd5-4780-bc5d-d5aeff78762c",
+      "locked": false,
+      "selected": false,
+      "source": "52e807b0-8bf4-4c9a-8e1d-c640002b220c",
+      "sourcePort": "534b9e59-2d67-4670-a8cf-211d097a0a10",
+      "target": "7c3005c8-ed08-47e0-bbcc-8eb933dd719f",
+      "targetPort": "46fefd62-0995-49fd-9d08-70bf04ec2cbe",
+      "points": [
+        {
+          "id": "89d16ca0-a74a-472a-b1ee-a66228e1de8f",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 936.1850102117367,
+            "y": 322.3281304838285
+          }
+        },
+        {
+          "id": "78d25685-7407-42be-be33-1a83ea3af8b4",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 936.0235018554338,
+            "y": 272.9687687177722
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "d869a4da-0097-4c83-a4a0-bdba9386a54e": {
+      "id": "d869a4da-0097-4c83-a4a0-bdba9386a54e",
+      "locked": false,
+      "selected": false,
+      "source": "845f803a-6f15-4f84-a016-0880401e1762",
+      "sourcePort": "4b543805-1567-4d20-982a-11d3d151a731",
+      "target": "52e807b0-8bf4-4c9a-8e1d-c640002b220c",
+      "targetPort": "0ef9750d-7825-4a33-aec9-f132cd8176af",
+      "points": [
+        {
+          "id": "58637de5-3f92-40a3-9189-af04a30bbdac",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 935.5703303099968,
+            "y": 497.0546905317221
+          }
+        },
+        {
+          "id": "2da3f7d7-c206-4032-bc22-f5e0f026a74c",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 936.1850102117367,
+            "y": 458.3281866890783
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "7d7dc166-9722-4ade-b21d-0de1e40fa7f9": {
+      "id": "7d7dc166-9722-4ade-b21d-0de1e40fa7f9",
+      "locked": false,
+      "selected": false,
+      "source": "845f803a-6f15-4f84-a016-0880401e1762",
+      "sourcePort": "66ada0f7-ed12-42bb-b026-3c1a42bf19fc",
+      "target": "165a49a5-1f4e-4173-8ba1-69ba45471707",
+      "targetPort": "655aad05-31d7-404d-9115-80506cded668",
+      "points": [
+        {
+          "id": "8dfaef81-74b3-4c01-b0bc-d0ee07f1066f",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 935.5703303099968,
+            "y": 557.054721666042
+          }
+        },
+        {
+          "id": "ab4e6dc1-aacc-4ba1-bc67-8648d681c0ed",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 937.5703260115566,
+            "y": 598.171895239477
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "17d2c957-27da-4dbb-8caf-4ae4b020cba0": {
+      "id": "17d2c957-27da-4dbb-8caf-4ae4b020cba0",
+      "locked": false,
+      "selected": false,
+      "source": "1ee8d50a-ba5a-4f26-93da-47afa5855fcc",
+      "sourcePort": "de48f62c-bf63-4ec9-b78a-7cdb64f234c6",
+      "target": "165a49a5-1f4e-4173-8ba1-69ba45471707",
+      "targetPort": "ee6f4c0c-a591-4f44-aa68-82b4ab4c6337",
+      "points": [
+        {
+          "id": "19c3443e-5517-4cb4-baa6-ee821444b059",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 935.9453335348883,
+            "y": 634.6640659924208
+          }
+        },
+        {
+          "id": "3b0e29ad-22ad-4144-a8b1-9c97dac3dbba",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 933.5703068630839,
+            "y": 598.171895239477
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "0d203151-5f97-40a0-b55c-8b167fc68eb6": {
+      "id": "0d203151-5f97-40a0-b55c-8b167fc68eb6",
+      "locked": false,
+      "selected": false,
+      "source": "a8cd2fe2-4704-4e32-93e2-070c48a44941",
+      "sourcePort": "c8ebc50c-7990-4e1d-a887-223ec16ba435",
+      "target": "1ee8d50a-ba5a-4f26-93da-47afa5855fcc",
+      "targetPort": "b1e73f37-e187-45d1-99a1-1de770c3a6bc",
+      "points": [
+        {
+          "id": "69ae436f-29cd-4db8-b72c-4bc22ffa01de",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 934.5734822029159,
+            "y": 726.3906844301682
+          }
+        },
+        {
+          "id": "c42443fa-a7ac-4ccb-a5a8-e2d0dca95199",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 935.9453335348883,
+            "y": 694.6641509987744
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "061e143b-658c-4632-a585-b3062e7d928f": {
+      "id": "061e143b-658c-4632-a585-b3062e7d928f",
+      "locked": false,
+      "selected": false,
+      "source": "aa0701d7-dd51-4ebd-99b8-83d85d78a8ef",
+      "sourcePort": "6793d965-9021-4247-9160-4667ec0eab69",
+      "target": "89a61c9e-9750-4ada-b4f6-399fdbab6391",
+      "targetPort": "c6508cd5-ea84-4bb7-9871-301c99212d5a",
+      "points": [
+        {
+          "id": "6d5f2763-d18a-4f93-a4e6-9851be126212",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 937.3281747616857,
+            "y": 57.109402708828874
+          }
+        },
+        {
+          "id": "3d256b8c-1173-41e7-9cd0-397b05da12ea",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 937.5625181072219,
+            "y": 79.12501726136969
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "21d00587-928e-40a2-8273-d6145bcacc21": {
+      "id": "21d00587-928e-40a2-8273-d6145bcacc21",
+      "locked": false,
+      "selected": false,
+      "source": "f8ae4fba-c20d-43ea-bb07-899f30780665",
+      "sourcePort": "ff0c4019-0c17-4631-b09d-ecfe2b82580b",
+      "target": "aa0701d7-dd51-4ebd-99b8-83d85d78a8ef",
+      "targetPort": "39badd6d-3eb5-47c5-8442-22373e94d61b",
+      "points": [
+        {
+          "id": "d3d2cd2a-44f8-49bf-9530-84d2a7e3dec0",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 937.6562554454364,
+            "y": -35.648434193344606
+          }
+        },
+        {
+          "id": "9a2da5b4-b9b1-4518-b6cd-acf69ced6ec7",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 937.3281747616857,
+            "y": -2.890628425491143
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "3d8c31d5-3f88-4100-a024-0eda51690c28": {
+      "id": "3d8c31d5-3f88-4100-a024-0eda51690c28",
+      "locked": false,
+      "selected": false,
+      "source": "824916bf-0d81-4773-8fc8-ac01c6a4be8e",
+      "sourcePort": "94838dc1-ad91-4f40-997f-59055cd00124",
+      "target": "ec100d29-212b-4269-a835-780e2f8420e3",
+      "targetPort": "f97ea04f-159f-40bd-a1f8-4ca2805e3fb7",
+      "points": [
+        {
+          "id": "ad52d236-08ef-4eb4-92a6-1387fd3c9070",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 776.0468925948986,
+            "y": 146.32032121724603
+          }
+        },
+        {
+          "id": "6569b4e7-1329-4b69-b398-c7546e4fe95b",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 860.7109916754771,
+            "y": 178.19533661983684
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "598f7a6f-e9cb-4b88-b2bb-a360745ce382": {
+      "id": "598f7a6f-e9cb-4b88-b2bb-a360745ce382",
+      "locked": false,
+      "selected": false,
+      "source": "824916bf-0d81-4773-8fc8-ac01c6a4be8e",
+      "sourcePort": "b71a2b32-dbb2-4ef9-ae0b-b7ebc59c022e",
+      "target": "3a450446-b829-4727-b4d8-aa4002ae07c3",
+      "targetPort": "fa11fa98-c183-4534-ab96-2e650c802c15",
+      "points": [
+        {
+          "id": "a3123eb0-a5f9-49f7-95d6-53439570feb6",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 716.0468665816072,
+            "y": 146.32032121724603
+          }
+        },
+        {
+          "id": "93d6ebca-6ce9-4e07-9352-20f7f61f3075",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 637.4453254429372,
+            "y": 182.40627105098858
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "313a2139-02ea-46bb-95be-f8e28f2ba5ca": {
+      "id": "313a2139-02ea-46bb-95be-f8e28f2ba5ca",
+      "locked": false,
+      "selected": false,
+      "source": "2347dcfc-8989-40cc-a77c-18311074387b",
+      "sourcePort": "07e75b69-dad6-470b-adf1-b8fbdd7978a2",
+      "target": "165a49a5-1f4e-4173-8ba1-69ba45471707",
+      "targetPort": "2d72ae6d-2817-45b9-9c77-5e8179dfdaf5",
+      "points": [
+        {
+          "id": "14a41647-720a-45ec-a5b6-4c20eea26d88",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 783.6093455355814,
+            "y": 583.5625209120274
+          }
+        },
+        {
+          "id": "13d67427-f20a-4ec9-870c-b2ee50008b5b",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 851.897633151752,
+            "y": 596.8504668725586
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    },
+    "13d16c97-5815-4f3b-8095-a69f05b11314": {
+      "id": "13d16c97-5815-4f3b-8095-a69f05b11314",
+      "locked": false,
+      "selected": false,
+      "source": "2347dcfc-8989-40cc-a77c-18311074387b",
+      "sourcePort": "ec6e9108-53f6-499c-9244-01fe186785cd",
+      "target": "5dc6dcbe-17df-4a9c-9f37-972c2df36d29",
+      "targetPort": "8b7b946b-021e-4e85-9ee8-d5d70fe9411f",
+      "points": [
+        {
+          "id": "22ea06ec-99f3-456a-8366-cdb4752ae1cf",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 723.6093717650497,
+            "y": 583.5625209120274
+          }
+        },
+        {
+          "id": "3248044e-e784-48ac-a477-f2223e1f9cab",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 637.911288923972,
+            "y": 598.5623576263808
+          }
+        }
+      ],
+      "voltageLevelId": null,
+      "alignmentType": "RECTANGULAR"
+    }
+  },
+  "substations": [
+    {
+      "id": "c4b66487-d98a-4d8a-87f4-142124b18e14",
+      "name": "Substation 1"
+    }
+  ],
+  "transmissionLines": [
+    {
+      "id": "d55146be-1f7e-4113-94a2-08eed9e3bdf7",
+      "name": "Transmission Line 1"
+    },
+    {
+      "id": "99ca703f-7615-45aa-afaf-fb95c4e4b327",
+      "name": "Transmission Line 2"
+    }
+  ]
+}
